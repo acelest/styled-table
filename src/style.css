@@ -22,3 +22,15 @@ th,
 td {
   padding: 15px 20px;
 }
+
+tbody td {
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(233, 2, 2, 0.452);
+}
+
+tfoot {
+  text-align: center;
+}
